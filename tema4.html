@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Back!</title>
+  <style>
+    .btn-google {
+      background-color: #dc3545;
+      color: #fff;
+      width: 200px;
+      border-radius: 50px;
+      padding: 10px;
+    }
+    .btn-facebook {
+      background-color: #1877f2;
+      color: #fff;
+      width: 200px;
+      border-radius: 50px;
+      padding: 10px;
+    }
+    input[type="email"],
+    input[type="password"] {
+      width: 180px;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      border-radius: 50px;
+    }
+    .btn-login {
+        background-color: #1877f2;
+        color:#ccc;
+        width: 210px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    .forgot{
+        color:#1877f2;
+    }
+    .create{
+        color:#1877f2;
+    }
+  </style>
+</head>
+<body>
+    <form>
+        <h2>Welcome Back!</h2>
+          <input type="email" class="email" name="email" placeholder="Enter Email Address..." required>
+          <br/>
+          <input type="password" class="password" name="password" placeholder="Password" required>
+          <br/>
+          <input type="checkbox" class="remember" name="remember"> Remember Me</input>
+          <br/>
+          <br/>
+          <button type="submit" class="btn-login">
+            Login 
+          </button>
+          <br/>
+          <br/>
+            <button type="submit" class="btn-google">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                   Autentificare cu Google
+            </button>
+            <br/>
+            <br/> 
+            <button type="submit" class="btn-facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg>
+                   Autentificare cu Facebook
+            </button>
+            <br/>
+             </form>
+             <input type="text" class="forgot" name="forgot"> Forgot Password?</input>
+            <br/>
+            <input type="text" class="create" name="create"> Create an Account!</input>
+</body>
+</html>
